@@ -33,7 +33,6 @@
 </style>
 
 <script setup lang="ts">
-import { defineProps } from 'vue'
 import copyToClipboard from '../assets/copy'
 //
 // define a prop called 'prompt'

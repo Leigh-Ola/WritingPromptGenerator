@@ -18,7 +18,7 @@
         </div> -->
     <div
       class="fixed w-8 h-16 flex right-0 px-2 top-0 cursor-pointer active:bg-[#1e001e] rounded-md box-content"
-      @click.stop="toggle"
+      @click.stop="toggle" v-show="store.count > 0"
     >
       <div class="m-auto w-8 shrink-0 h-auto p-1 hover:scale-110 iconbox">
         <img alt="History Icon" class="w-full h-auto m-auto" src="@/assets/history-white.png" />
