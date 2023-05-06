@@ -2,6 +2,7 @@
   "name": "writingpromptgenerator",
   "version": "0.0.0",
   "private": true,
+  "description": "Randomly generates writing prompts for short stories from a sample space of over 2 billion possible prompts using Vue.js and Tailwind CSS.",
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check build-only",
