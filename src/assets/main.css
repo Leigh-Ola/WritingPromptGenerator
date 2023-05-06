@@ -1,0 +1,64 @@
+@import './base.css';
+/* import roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+/* import ubuntu */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+/* import a very cursive font */
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+/* import another cursive font */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+/* import a handwriting font*/
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+/* import another handwriting font*/
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+/*  */
+.slate-ish {
+  color: rgb(148, 163, 184);
+}
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+  position: fixed;
+  left: -100%;
+  top: -100%;
+}
+/*  */
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+}
+
+#app {
+  background: rgb(30, 0, 30);
+  min-height: 100%;
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    /* place-items: center; */
+  }
+}
